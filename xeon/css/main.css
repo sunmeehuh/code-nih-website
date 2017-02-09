@@ -231,7 +231,7 @@ a:focus {
   padding: 10px 0 0 0;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .portfolio-item .overlay {
   position: absolute;
@@ -255,7 +255,7 @@ a:focus {
   margin-top: -20px;
 }
 .portfolio-item:hover .overlay {
-  opacity: 1;
+  opacity: 0; /*changes back and forth hover on small images*/
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
